@@ -23,5 +23,5 @@ for(i=0; i<liQuery.length; i++) {
 var numItems = liQuery.length;
 var headerEl = document.querySelector('#page h2');
 var headerCurrent = headerEl.innerHTML;
-headerCurrent = headerCurrent.fontsize(15)
+// headerCurrent = headerCurrent.fontsize(15)
 headerEl.innerHTML = headerCurrent + ' ' + numItems;
